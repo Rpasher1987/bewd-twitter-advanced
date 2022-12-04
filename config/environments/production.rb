@@ -52,6 +52,9 @@ Rails.application.configure do
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
 
+  # Using the Amazon S3 settings for Active Storage
+  config.active_storage.service = :amazon
+
   # Use a real queuing backend for Active Job (and separate queues per environment)
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "railsapp_#{Rails.env}"

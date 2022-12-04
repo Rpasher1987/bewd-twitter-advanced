@@ -28,7 +28,9 @@ gem 'jbuilder', '~> 2.11'
 gem 'bcrypt', '~> 3.1'
 
 # AWS S3
-gem 'aws-sdk-s3', '~> 1.114'
+# gem 'aws-sdk-s3', '~> 1.114' - Old version, updating to 3.0 but will save this incase it doesn't work
+gem 'aws-sdk', '~> 3.0'
+
 # Webrick
 gem 'webrick', '~> 1.7'
 # Mail gem
